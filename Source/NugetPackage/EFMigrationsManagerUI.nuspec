@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EFMigrationsManagerUI</id>
+    <version>6.4.40</version>
+    <title>EF Migrations Manager - User Interface for Asp.Net MVC applications</title>
+    <authors>Narendra Bhogavalli</authors>
+    <owners>Narendra Bhogavalli</owners>
+    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>User Interface to Manage EF Migrations for MVC applications. Once MVC application deployed and navigate to the application will redirect to the Manage Migrations(Database deployment) page for admin users and database maintenance page for non Admin users.</description>
+    <releaseNotes />
+    <copyright>Copyright 2017</copyright>
+    <tags>EntityFramework EF 'Entity Framework Deployment' 'EF Deployment' 'EF Update' 'EF Manage Migrations' 'EF Migrations Manager' EfDevops</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.1.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      <dependency id="WebActivatorEx" version="2.2.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="Content\Controller\EFMigrationsManagerController.cs.pp" target="content\Controllers\EFMigrationsManagerController.cs.pp" />
+    <file src="Content\App_Start\EFMigrationsManagerConfig.cs.pp" target="content\App_Start\EFMigrationsManagerConfig.cs.pp" />
+    <file src="Content\Views\EFMigrationsManager\DbMaintenance.cshtml" target="content\Views\EFMigrationsManager\DbMaintenance.cshtml" />
+    <file src="Content\Views\EFMigrationsManager\Publish.cshtml" target="content\Views\EFMigrationsManager\Publish.cshtml" />
+    <file src="Content\web.config.install.xdt" target="content\web.config.install.xdt" />
+    <file src="Content\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
+    <file src="bin\Debug\NB.Apps.EFMigrationsManager.dll" target="lib\NB.Apps.EFMigrationsManager.dll" />
+  </files>
+</package>

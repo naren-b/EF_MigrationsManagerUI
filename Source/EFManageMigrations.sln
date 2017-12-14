@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26608.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{30B9BEE0-61A8-4090-BE95-0F687F310EF2}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationsManager", "EFManageMigrations\EFMigrationsManager.csproj", "{A238A75B-9ACC-4909-BB14-D81D8A844B8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetInstallers", "NugetInstallers", "{329F4141-DC99-461B-8906-C6FF2123C8EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetPackage", "NugetPackage\NugetPackage.csproj", "{111A00F4-FEE6-4692-9630-EA716B907B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationsManagerUI", "EFManageMigrationsUI\EFMigrationsManagerUI.csproj", "{3A12FA19-05A8-4647-8E30-242344157389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Dev|Any CPU = Dev|Any CPU
+		Prod|Any CPU = Prod|Any CPU
+		QA|Any CPU = QA|Any CPU
+		Release|Any CPU = Release|Any CPU
+		UAT|Any CPU = UAT|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.QA|Any CPU.Build.0 = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.UAT|Any CPU.ActiveCfg = Release|Any CPU
+		{A238A75B-9ACC-4909-BB14-D81D8A844B8B}.UAT|Any CPU.Build.0 = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.QA|Any CPU.Build.0 = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.UAT|Any CPU.ActiveCfg = Release|Any CPU
+		{111A00F4-FEE6-4692-9630-EA716B907B59}.UAT|Any CPU.Build.0 = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Prod|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Prod|Any CPU.Build.0 = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.QA|Any CPU.Build.0 = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.UAT|Any CPU.ActiveCfg = Release|Any CPU
+		{3A12FA19-05A8-4647-8E30-242344157389}.UAT|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{111A00F4-FEE6-4692-9630-EA716B907B59} = {329F4141-DC99-461B-8906-C6FF2123C8EA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://narenb.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NugetPackage\\NugetPackage.csproj
+		SccProjectTopLevelParentUniqueName1 = EFManageMigrations.sln
+		SccProjectName1 = NugetPackage
+		SccLocalPath1 = NugetPackage
+		SccProjectUniqueName2 = EFManageMigrations\\EFMigrationsManager.csproj
+		SccProjectName2 = EFManageMigrations
+		SccLocalPath2 = EFManageMigrations
+		SccProjectUniqueName3 = EFManageMigrationsUI\\EFMigrationsManagerUI.csproj
+		SccProjectName3 = EFManageMigrationsUI
+		SccLocalPath3 = EFManageMigrationsUI
+	EndGlobalSection
+EndGlobal
