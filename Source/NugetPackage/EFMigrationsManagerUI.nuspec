@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>EFMigrationsManagerUI</id>
-    <version>6.4.40</version>
+    <version>1.0.0</version>
     <title>EF Migrations Manager - User Interface for Asp.Net MVC applications</title>
     <authors>Narendra Bhogavalli</authors>
     <owners>Narendra Bhogavalli</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/naren-b/EF_MigrationsManagerUI/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/naren-b/EF_MigrationsManagerUI</projectUrl>
     <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>User Interface to Manage EF Migrations for MVC applications. Once MVC application deployed and navigate to the application will redirect to the Manage Migrations(Database deployment) page for admin users and database maintenance page for non Admin users.</description>
